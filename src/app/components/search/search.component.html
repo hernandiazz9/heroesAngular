@@ -1,0 +1,8 @@
+<h1>Heroes buscados</h1>
+<hr />
+
+<app-hero-card
+  [hero]="hero"
+  [i]="i"
+  *ngFor="let hero of heroes; let i = index "
+></app-hero-card>
